@@ -16,4 +16,8 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    npm start
   displayName: 'Run a multi-line script'
+- task: UseNode@1
+  inputs:
+    checkLatest: true
