@@ -10,7 +10,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.helloWorld",
+		"onView:nodeDependencies"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -33,7 +34,7 @@
 			"package-explorer": [
 				{
 					"id": "nodeDependencies",
-					"name": "Dependencies"
+					"name": "Node Dependencies"
 				}
 			]
 		}
